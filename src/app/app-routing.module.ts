@@ -5,12 +5,7 @@ import { RouterModule,Routes } from '@angular/router';
 //modulos
 import { PagesRoutingModule } from './pages/pages.routing';
 import { authRoutingModule } from './auth/auth.routing';
-
-
 import { NopagesComponent } from './nopages/nopages.component';
-
-
-
 
 
 const routes: Routes = [
