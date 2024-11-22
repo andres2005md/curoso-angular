@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from '../app-routing.module';
 import { FormsModule } from '@angular/forms'
 
-import { NgChartsModule } from 'ng2-charts';
  
 
 import { SharedModule } from '../shared/shared.module';
@@ -35,7 +34,6 @@ import { PagesComponent } from './pages.component';
     SharedModule,
     AppRoutingModule,
     FormsModule,
-    NgChartsModule,
     ComponentsModule,
   ]
 })
