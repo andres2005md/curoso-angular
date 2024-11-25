@@ -23,7 +23,7 @@ import { NopagesComponent } from './nopages/nopages.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PagesModule,
+    // PagesModule,
     AuthModule,
 
   ],

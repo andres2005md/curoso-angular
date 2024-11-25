@@ -5,7 +5,9 @@
         <div class="login-register login-sidebar" style="background-image:url(../assets/images/background/login-register.jpg);">
             <div class="login-box card">
                 <div class="card-body">
-                    <form class="form-horizontal form-material" id="loginform" action="index.html">
+                    <form class="form-horizontal form-material" 
+                        (submit)="login()"
+                        id="loginform" >
                         <h3 class="box-title m-b-20">Iniciar sesión</h3>
                         <div class="form-group ">
                             <div class="col-xs-12">
@@ -38,7 +40,7 @@
                             </div>
                         </div>
                         <div class="form-group m-b-0">
-                            <div class="col-sm-12 text-center"> 
+                            <div class="col-sm-12 text-center">  
                                 ¿No tienes una cuenta?<a href="pages-register.html" class="text-info m-l-5"><b>Inscribirse</b></a>
                             </div>
                         </div>
