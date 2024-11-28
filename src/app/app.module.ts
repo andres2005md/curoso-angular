@@ -15,10 +15,12 @@ import { NopagesComponent } from './nopages/nopages.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NopagesComponent,
+
     ],
   imports: [
     BrowserModule,
